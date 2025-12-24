@@ -1,6 +1,6 @@
 {
   "name": "create-sense-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": "./dist/cli.js",
   "scripts": {
     "build": "bun build ./bin/cli.ts --outfile ./dist/cli.js --target node"

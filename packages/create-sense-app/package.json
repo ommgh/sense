@@ -1,0 +1,19 @@
+{
+  "name": "create-sense-app",
+  "version": "1.0.2",
+  "bin": "./dist/cli.js",
+  "scripts": {
+    "build": "bun build ./bin/cli.ts --outfile ./dist/cli.js --target node"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
